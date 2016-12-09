@@ -1,0 +1,19 @@
+<html>
+
+
+<div align="center">
+	<h1 id="quoteForDay"> </h1>
+</div>
+
+<script type="text/javascript">
+	
+	var quotes = [
+		"Quote 1",
+		"Quote 2",
+		"Quote 3",
+	]
+
+	var randomNumber = Math.floor((Math.random() * 3) + 1 );
+	document.getElementById('quoteForDay').innerHTML = quotes[randomNumber-1];
+</script>
+</html>
